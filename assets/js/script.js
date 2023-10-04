@@ -219,7 +219,7 @@ function displayWeatherForecast(weatherData) {
         //Push data to store in an array
         forecastData.push({
             date: dateElement.textContent,
-            icon: icon.src,
+            icon: `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`,
             temperature: temperatureElement.textContent,
             windSpeed: windSpeed.textContent,
             description: descriptionElement.textContent
@@ -248,7 +248,7 @@ function displayWeatherForecast(weatherData) {
             dateElement.textContent = forecastData.date;
 
             var icon = document.createElement('img');
-            icon.src = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`
+            icon.src = forecastData.icon;
         
             var temperatureElement = document.createElement('p');
             temperatureElement.textContent = forecastData.temperature;
