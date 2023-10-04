@@ -27,6 +27,7 @@
   button {
     background-color: rgb(1, 1, 35);
     color: white;
+    height: 30px;
   }
   
   .search {
@@ -46,7 +47,10 @@
     }
     
     .modal-content {
-      background-color: #fefefe;
+      background-color: black;
+      color: white;
+      font-size: 28px;
+      font-family: Arial, Helvetica, sans-serif;
       margin: 15% auto;
       padding: 20px;
       border: 1px solid #888;
@@ -57,11 +61,11 @@
     }
     
     .close {
-      color: #aaa;
+      color: white;
       position: absolute;
       top: 10px;
       right: 10px;
-      font-size: 24px;
+      font-size: 32px;
       font-weight: bold;
       cursor: pointer;
     }
@@ -74,6 +78,11 @@
     }
   }
   
+  .park-display-container {
+    display: flex;
+  }
+
+
   .weather-forecast {
     display: flex;
     /* Add your styles for the weather forecast section here */
