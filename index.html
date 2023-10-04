@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Global Park Weather</title>
+    <title>National Park Weather</title>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Global Park Weather</h1>
+        <h1>National Park Weather</h1>
     </header>
 
     <main>
@@ -17,38 +18,42 @@
             <!-- Background image or content goes here -->
         </section>
 
-        <section id="opening" class="opening">
-            <p>Hello and welcome to the park weather planner! Enter a park or location below to see the weather forecast for national parks in that area.</p>
+        <section id="Opening" class="opening">
+            <p>Hello and welcome to the park weather planner! Enter a park or location below to see the weather forecast in the area.</p>
         </section>
 
-        <section id="search-bar" class="search">
+        <section id="SearchBar" class="search">
             <label for="search">Enter Your Park Here:</label>
-            <input type="text" id="search" name="SearchBar" placeholder="Search for a park">
-            <button id="search-button">Search</button>
+            <input type="text" id="search" placeholder="Search for a park" name="SearchBar">
+            <button id="search-button" type="button">Search</button>
+            <!-- Modal -->
+            <div id="noMatchingParkModal" class="modal">
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>No National Parks Found.</p>
+        </div>
+        </div>
         </section>
 
-        <section id="park-display">
+        <section id="park-display-container">
             <h2>Park Information</h2>
-            <div id="park-display-container"></div>
+            
         </section>
 
         <section class="weather-forecast">
-            <!-- Weather forecast content goes here -->
+            <div class="forecast-cards-container"></div>
         </section>
 
-        <section class="about">
-            <h2>About Global Park Weather</h2>
+        <div class="about">
+            <h2>About National Park Weather</h2>
             <p>National park weather is a window into the natural world within these pristine landscapes. It helps visitors plan adventures, hikes, and moments of respite while fostering a deep appreciation for nature's delicate balance within our cherished parks.</p>
-        </section>
+        </div>
 
-        <section class="mission">
+        <div class="our mission">
             <h2>Mission Statement</h2>
             <p>Our mission is to empower your national park adventures with accurate and timely weather information, ensuring your safety and enhancing your enjoyment of these natural wonders.</p>
-        </section>
+        </div>
     </main>
-    <script src="./assets/js/displaydata.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
-
-
-
