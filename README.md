@@ -3,25 +3,53 @@
 ## USER Story
 
 ```
-AS A NATIONAL PARK Camper
-I WANT to see the weather outlook for multiple parks
-SO THAT I can plan around the weather
+AS A User
+I WANT to search for a National Park
+I WANT to know what the future forecast weather for multiple parks
+SO THAT I can plan a trip around the weather
+
 
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN an application with form input searchbar
-WHEN I search for a National Park
-THEN I am presented with information about the National Park and About the Weather
-THIS Application must use 2 different server-side APIs
-THE Application uses client-side store to store persistent data
-THIS Application uses modals insted doesn't use JS alerts, prompts, or confirms
-THIS Application uses a CSS framework other than Bootstrap
-Application is interactive (accepts and responds to user input)
+GIVEN a National Park and Weather application 
+WHEN a user searches for a National Park
+THEN the user is presented with the park name, image and brief information about the Park
+Also the user is presented with the five day forecast at or near the Park
+THE Application must use 2 different server-side APIs
+THE Application uses client-side storage to persistent data
+THE Application uses modals and doesn't use JS alerts, prompts, or confirmation
+THE Application has to use CSS framework other than Bootstrap
+THE Application is interactive (accepts and responds to user input)
+
 
 ```
+## Directions for Future Development
+
+```
+To approach the future development of a national parks with weather app, you can consider the following steps:
+Identify the needs of your users. What features and information would be most valuable to them? What are their pain points and frustrations when visiting national parks? How can your app help them make the most of their experience?
+Research the latest technologies and trends. What new technologies could you use to improve your app? Are there any emerging trends in the national park or weather app space that you could tap into?
+Develop a roadmap for your app's development. What features and functionality do you want to add in the near, medium, and long term? How will you prioritize these features?
+Get feedback from users. Once you have a prototype or early version of your app, get feedback from potential users. This will help you identify any areas that need improvement before you launch your app to the public.
+Here are some specific ideas for features and functionality that you could consider adding to your national parks with weather app:
+Real-time weather data and forecasts. This would allow users to plan their activities and excursions based on the current weather conditions.
+Interactive maps and trails. This would allow users to easily navigate national parks and find their way around.
+Personalized recommendations. Based on a user's interests and preferences, the app could recommend activities, trails, and campgrounds.
+Social features. This would allow users to share their experiences with friends and family, and connect with other national park visitors.
+Educational content. The app could provide users with information about the natural and cultural history of national parks.
+You could also consider developing partnerships with national park organizations and other businesses to expand the reach and value of your app. For example, you could partner with national park organizations to provide users with exclusive discounts or access to special events. You could also partner with businesses near national parks to offer users discounts on hotels, restaurants, and other attractions.
+```
+
+* Elevator pitch: a one minute description of your application
+
+* Concept: What is your user story? What was your motivation for development?
+
+* Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+
+* Demo: Show your stuff!
 
 
 
@@ -39,15 +67,11 @@ Finally, a project requires a presentation, because you’re trying to convince 
 
 You and your group will use everything you’ve learned over the past six modules to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
 
-* Use a CSS framework other than Bootstrap.
 
 * Be deployed to GitHub Pages.
 
 * Be interactive (i.e., accept and respond to user input).
 
-* Use at least two [server-side APIs](https://coding-boot-camp.github.io/full-stack/apis/api-resources).
-
-* Does not use alerts, confirms, or prompts (use modals).
 
 * Use client-side storage to store persistent data.
 
