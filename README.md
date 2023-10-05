@@ -43,35 +43,25 @@ Educational content. The app could provide users with information about the natu
 You could also consider developing partnerships with national park organizations and other businesses to expand the reach and value of your app. For example, you could partner with national park organizations to provide users with exclusive discounts or access to special events. You could also partner with businesses near national parks to offer users discounts on hotels, restaurants, and other attractions.
 ```
 
-* Elevator pitch: a one minute description of your application
+## Elevator pitch: a one minute description of your application
 
-* Concept: What is your user story? What was your motivation for development?
+## Concept: What is your user story? What was your motivation for development?
 
-* Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+## Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
 
-* Demo: Show your stuff!
+ ## Demo: Show your stuff!
 
 
 
 # 08 Project 1: Interactive Front-End Application (REQUIREMENTS)
 ```
-At the conclusion of each phase of this course, you’ll work with a group of your fellow students to create a **project**. A project is collaborative work among a group of developers to create an application that solves a real-world problem. Projects model the experience you’ll encounter in every development role at any company, from large multinational businesses to small startups. Coding is collaborative.
-
-A project is a bit different from the Challenge assignments you’ve worked on so far. One of the biggest differences is that you’ll no longer build an application by yourself! This has some advantages&mdash;you won’t have to do all of the work, you can divide up duties, and you can share skills and knowledge with other developers and lean on their strengths. This can also be challenging if you’re used to working alone. Constant communication and time management are just two of the skills you’ll need to practice to make sure everyone in your group works together to complete the project. 
-
-Projects won’t provide you with a user story or acceptance criteria, because you and your group will create them once you decide which real-world problem your application will solve. This lack of constraints can be freeing in a way, because you have room to build what you want, but it also means that you have to decide what those constraints are before you can start working.
-
-Finally, a project requires a presentation, because you’re trying to convince an audience that it serves a purpose. Your instructional staff and fellow students are investors, and you’re pitching your creation to them&mdash;an experience that developers are required to do frequently. Your presentation is just as important as the actual project, so take it just as seriously.
-
 ## Project Requirements
 
 You and your group will use everything you’ve learned over the past six modules to create a real-world front-end application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfil the following requirements:
 
-
 * Be deployed to GitHub Pages.
 
 * Be interactive (i.e., accept and respond to user input).
-
 
 * Use client-side storage to store persistent data.
 
